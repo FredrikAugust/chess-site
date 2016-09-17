@@ -1,7 +1,4 @@
 /* Mainly overrides for colors etc for materialize.css */
-.parallax>img {
-  max-width: 100%;
-}
 
 p {
   line-height: 2rem;
@@ -22,4 +19,12 @@ p {
 
 .parallax-container h1 {
   margin: 1.68rem 0;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
 }
