@@ -12,7 +12,7 @@ p {
   display: flex;
 }
 
-.parallax-container>.section {
+.parallax-container .section {
   flex: auto;
   align-self: center;
 }
@@ -27,4 +27,8 @@ p {
 
 .icon-block .material-icons {
   font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
 }
