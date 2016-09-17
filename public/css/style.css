@@ -32,3 +32,15 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+@media (min-width: 992px) {
+  .brand-logo:before {
+    content: 'Erasmiaans Schaaktoernooi';
+  }
+}
+
+@media (max-width: 992px) {
+  .brand-logo:before {
+    content: 'Eras Schaaktoernooi';
+  }
+}
