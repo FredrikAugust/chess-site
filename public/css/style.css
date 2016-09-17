@@ -1,1 +1,25 @@
 /* Mainly overrides for colors etc for materialize.css */
+.parallax>img {
+  max-width: 100%;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255, 255, 255, .9);
+  display: flex;
+}
+
+.parallax-container>.section {
+  flex: auto;
+  align-self: center;
+}
+
+.parallax-container h1 {
+  margin: 1.68rem 0;
+}
