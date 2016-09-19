@@ -32,3 +32,9 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+@media (min-width: 660px) {
+    #big-p {
+        margin: 50px auto;
+    }
+}
