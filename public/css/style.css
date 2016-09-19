@@ -38,3 +38,11 @@ footer.page-footer {
         margin: 50px auto;
     }
 }
+
+body, html {
+  height: 100%;
+}
+
+#index-banner {
+  height: 90%;
+}
