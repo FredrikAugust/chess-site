@@ -46,8 +46,3 @@ body, html {
 #index-banner {
   height: 100%;
 }
-
-#index-banner .parallax img {
-  position: fixed;
-  z-index: -100;
-}
